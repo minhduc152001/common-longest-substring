@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(246, 246, 246);
+  font-family: sans-serif;
+}
+
+h1,
+h2 {
+  color: rgb(1, 137, 1);
+  text-align: center;
+}
+
+#text1,
+#text2 {
+  width: 36vw;
+  height: 32vh;
+  margin: 20px;
+}
+
+.output1,
+.output2 {
+  float: right;
+  margin-right: 4rem;
+  text-align: justify;
+}
+
+.title {
+  color: rgb(25, 25, 2);
+  font-size: x-large;
+}
+
+p {
+  width: 400px;
+  text-align: justify;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+button {
+  height: 40px;
+  border: solid rgb(157, 157, 157) 2px;
+  border-radius: 4px;
+  background-color: rgb(1, 137, 1);
+  color: wheat;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.result {
+  size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+textarea {
+  resize: none;
+  size: 16px;
+}
+
+#subsequences {
+  text-align: justify;
+  margin-left: 78px;
+}
