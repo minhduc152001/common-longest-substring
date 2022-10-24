@@ -27,7 +27,7 @@ function printLCSubStr() {
   }
 
   if (len == 0) {
-    document.write("No Common Substring");
+    alert("No Common Substring");
   }
 
   for (position in LCSList) {
