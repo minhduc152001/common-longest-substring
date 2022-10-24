@@ -27,7 +27,7 @@ function printLCSubStr() {
   }
 
   if (len == 0) {
-    alert("No Common Substring");
+    alert("Không có chuỗi con chung!");
   }
 
   for (position in LCSList) {
