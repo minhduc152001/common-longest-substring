@@ -1,6 +1,7 @@
 function printLCSubStr() {
   let X = document.getElementById("text1").value;
   let Y = document.getElementById("text2").value;
+  console.log({X,Y});
   let m = X.length;
   let n = Y.length;
   let LCSuff = new Array(m + 1);
@@ -64,7 +65,6 @@ function printLCSubStr() {
     string1 = string1
       .replace(`##${i}`, `span class="result" style="color:#${randomColor};"`)
       .replace(`/#${i}`, "/span");
-    console.log(`##${i}`);
     string2 = string2
       .replace(`##${i}`, `span class="result" style="color:#${randomColor};"`)
       .replace(`/#${i}`, "/span");
